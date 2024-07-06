@@ -10,3 +10,8 @@ npm remove <pkg name>
 
 production
  npm run build
+
+to host the page webpack built 
+
+git add dist && git commit -m "Initial dist subtree commit"
+git subtree push --prefix dist origin gh-pages
